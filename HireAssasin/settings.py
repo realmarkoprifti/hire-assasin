@@ -137,3 +137,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'assasin.User'
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-e285.up.railway.app'
+]
